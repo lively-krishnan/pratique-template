@@ -1,0 +1,24 @@
+{
+  "name": "pratique-template",
+  "version": "1.0.0",
+  "description": "Some processing methods for templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lively-krishnan/pratique-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lively-krishnan/pratique-template/issues"
+  },
+  "homepage": "https://github.com/lively-krishnan/pratique-template",
+  "keywords": [
+    "template",
+    "string",
+    "template-string"
+  ],
+  "author": "krishnan",
+  "license": "ISC"
+}
