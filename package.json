@@ -1,6 +1,6 @@
 {
   "name": "pratique-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some processing methods for templates",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
   "keywords": [
     "template",
     "string",
-    "template-string"
+    "template-string",
+    "krishnan"
   ],
   "author": "krishnan",
   "license": "ISC"

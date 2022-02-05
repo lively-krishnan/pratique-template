@@ -1,1 +1,1 @@
-module.exports.string = require('./packages/string')
+module.exports.render = require('./string')
