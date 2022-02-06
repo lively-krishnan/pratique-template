@@ -1,26 +1,4 @@
-/**
- * 提取值
- * @private
- * @example
- * // 返回正确的值 return 'hello world'
- * extractVal('obj.a', {
- *   obj:{
- *     a: 'hello world'
- *   }
- * })
- * // 返回错误的值 return undefined
- * extractVal('obj.a', {name: 2})
- */
-function extractVal(params, view) {
-  if (view && view[params]) return view[params]
-  const r = params.split('.')
-  while (view && r.length) {
-    const p = r.shift()
-    view = typeof view === 'object' && p in view ? view[p] : undefined
-  }
-
-  return view
-}
+const um = require('./libs/utlis')
 
 /**
  * @param { string } input 模板字符串
@@ -38,7 +16,7 @@ function render(input, view) {
 
   const REGEX = /{{(.*?)}}/g
   return input.replace(REGEX, (node, params) => {
-    const val = extractVal(params, view)
+    const val = um.extractValueResult(params, view)
     if (typeof val === 'undefined' || val === null) {
       console.warn(`No ${params} was found for value`)
       return node
