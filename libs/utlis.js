@@ -12,6 +12,7 @@ class UtilsModule {
    * extractVal('obj.a', {name: 2})
    */
   extractValueResult(params, view) {
+    if(arguments.length === 0) return undefined
     if (view && view[params]) return view[params]
     const r = params.split('.')
     while (view && r.length) {
