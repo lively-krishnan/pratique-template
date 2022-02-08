@@ -4,10 +4,10 @@ describe('string-test', () => {
   function verify(title, input, output) {
     it(title, function () {
       const result = render.apply(render, input);
-      console.log(result,'==2==2=2')
       eval(`expect('${result}').${output}`)
-    });
+    })
   }
+  
   verify(
     '验证纯字符串输入',
     [`hello world`],

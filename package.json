@@ -1,6 +1,6 @@
 {
   "name": "pratique-template",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Replace template character",
   "main": "index.js",
   "scripts": {
