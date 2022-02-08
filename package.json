@@ -1,6 +1,6 @@
 {
   "name": "pratique-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Some processing methods for templates",
   "main": "index.js",
   "scripts": {

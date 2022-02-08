@@ -4,5 +4,10 @@ Some processing methods for templates
 ## variable substitution:
 ```
 const render = require('pratique-template/string')
-render(`I'm {{name}}`, {name: 'krishnan'}) // 'I'm krishnan'  
+
+render(`I'm {{name}}, a {{privateInfo.age}} old`, {
+  name: 'krishnan', 
+  privateInfo:{ age: 18 }
+}) // 'I'm krishnan, a 18 old'
+
 ```
