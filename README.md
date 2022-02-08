@@ -1,7 +1,8 @@
 # pratique-template
-Some processing methods for templates
+🚀 Replace template character
 
-## variable substitution:
+
+## Quickly understand:
 ```
 const render = require('pratique-template/string')
 

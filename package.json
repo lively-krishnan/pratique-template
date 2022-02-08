@@ -1,10 +1,10 @@
 {
   "name": "pratique-template",
-  "version": "1.0.3",
-  "description": "Some processing methods for templates",
+  "version": "1.0.4",
+  "description": "Replace template character",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,13 @@
     "string",
     "template-string",
     "krishnan",
-    "replace"
+    "replace",
+    "json-string",
+    "Replace template character"
   ],
   "author": "krishnan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.0"
+  }
 }
