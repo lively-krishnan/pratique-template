@@ -1,6 +1,6 @@
 {
   "name": "pratique-template",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Replace template character",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   ],
   "author": "krishnan",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^27.5.0"
   }
 }
